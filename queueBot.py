@@ -85,5 +85,6 @@ class QueueBot(commands.Bot):
 
 
 if __name__ == "__main__":
+    #https://twitchtokengenerator.com
     bot = QueueBot(token="token", prefix='!', initial_channels=['cubesky'])
     bot.run()
